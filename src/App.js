@@ -1,3 +1,5 @@
+
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { CountryPage, HomePage, PersonPage, ListPage } from './pages';
 
@@ -21,3 +23,4 @@ export default function App() {
     </Router>
   );
 }
+
